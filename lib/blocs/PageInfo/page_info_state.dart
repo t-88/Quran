@@ -1,24 +1,36 @@
-part of 'page_info_cubit.dart';
+part of 'page_info_bloc.dart';
 
-class PageInfoState extends Equatable {
+class GlobalState extends Equatable {
   int pageIdx = 1;
+  int indexPageJump = -1;
   bool overlayVisible = false;
 
-  PageInfoState({
+  int lastestIndexTab = 0;
+
+  GlobalState({
     this.pageIdx = 1,
     this.overlayVisible = false,
+    this.indexPageJump = -1,
+    this.lastestIndexTab = 0,
   });
 
-  PageInfoState copyWith({
+  GlobalState copyWith({
     int? pageIdx,
     bool? overlayVisible,
+    int? indexPageJump,
+    int? lastestIndexTab,
+    
   }) =>
-      PageInfoState(
+      GlobalState(
         pageIdx: pageIdx ?? this.pageIdx,
         overlayVisible: overlayVisible ?? this.overlayVisible,
+        indexPageJump: indexPageJump ?? this.indexPageJump,
+        lastestIndexTab: lastestIndexTab ?? this.lastestIndexTab,
+        
+        
       );
 
   @override
         
-  List<Object> get props => [pageIdx,overlayVisible];
+  List<Object> get props => [pageIdx,overlayVisible,indexPageJump,lastestIndexTab];
 }

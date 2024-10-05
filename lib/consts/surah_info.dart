@@ -2,914 +2,1028 @@ var _DATA = [
   {
     "revelation_place": "makkah",
     "revelation_order": 5,
-    "name_english": "Al-Fātiĥah",
+    "name_english": "Al-Fatihah",
+    "name_english_complex": "Al-Fātiĥah",
     "name_arabic": "الفاتحة",
     "verses_count": 7,
-    "name": "The Opener"
+    "pages": [1, 1],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 87,
     "name_english": "Al-Baqarah",
+    "name_english_complex": "Al-Baqarah",
     "name_arabic": "البقرة",
     "verses_count": 286,
-    "name": "The Cow"
+    "pages": [2, 49],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 89,
-    "name_english": "Āli `Imrān",
+    "name_english": "Ali 'Imran",
+    "name_english_complex": "Āli `Imrān",
     "name_arabic": "آل عمران",
     "verses_count": 200,
-    "name": "Family of Imran"
+    "pages": [50, 76],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 92,
-    "name_english": "An-Nisā",
+    "name_english": "An-Nisa",
+    "name_english_complex": "An-Nisā",
     "name_arabic": "النساء",
     "verses_count": 176,
-    "name": "The Women"
+    "pages": [77, 106],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 112,
-    "name_english": "Al-Mā'idah",
+    "name_english": "Al-Ma'idah",
+    "name_english_complex": "Al-Mā'idah",
     "name_arabic": "المائدة",
     "verses_count": 120,
-    "name": "The Table Spread"
+    "pages": [106, 127],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 55,
-    "name_english": "Al-'An`ām",
+    "name_english": "Al-An'am",
+    "name_english_complex": "Al-'An`ām",
     "name_arabic": "الأنعام",
     "verses_count": 165,
-    "name": "The Cattle"
+    "pages": [128, 150],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 39,
-    "name_english": "Al-'A`rāf",
+    "name_english": "Al-A'raf",
+    "name_english_complex": "Al-'A`rāf",
     "name_arabic": "الأعراف",
     "verses_count": 206,
-    "name": "The Heights"
+    "pages": [151, 176],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 88,
-    "name_english": "Al-'Anfāl",
+    "name_english": "Al-Anfal",
+    "name_english_complex": "Al-'Anfāl",
     "name_arabic": "الأنفال",
     "verses_count": 75,
-    "name": "The Spoils of War"
+    "pages": [177, 186],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 113,
     "name_english": "At-Tawbah",
+    "name_english_complex": "At-Tawbah",
     "name_arabic": "التوبة",
     "verses_count": 129,
-    "name": "The Repentance"
+    "pages": [187, 207],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 51,
-    "name_english": "Yūnus",
+    "name_english": "Yunus",
+    "name_english_complex": "Yūnus",
     "name_arabic": "يونس",
     "verses_count": 109,
-    "name": "Jonah"
+    "pages": [208, 221],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 52,
-    "name_english": "Hūd",
+    "name_english": "Hud",
+    "name_english_complex": "Hūd",
     "name_arabic": "هود",
     "verses_count": 123,
-    "name": "Hud"
+    "pages": [221, 235],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 53,
-    "name_english": "Yūsuf",
+    "name_english": "Yusuf",
+    "name_english_complex": "Yūsuf",
     "name_arabic": "يوسف",
     "verses_count": 111,
-    "name": "Joseph"
+    "pages": [235, 248],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 96,
-    "name_english": "Ar-Ra`d",
+    "name_english": "Ar-Ra'd",
+    "name_english_complex": "Ar-Ra`d",
     "name_arabic": "الرعد",
     "verses_count": 43,
-    "name": "The Thunder"
+    "pages": [249, 255],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 72,
-    "name_english": "Ibrāhīm",
+    "name_english": "Ibrahim",
+    "name_english_complex": "Ibrāhīm",
     "name_arabic": "ابراهيم",
     "verses_count": 52,
-    "name": "Abraham"
+    "pages": [255, 261],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 54,
-    "name_english": "Al-Ĥijr",
+    "name_english": "Al-Hijr",
+    "name_english_complex": "Al-Ĥijr",
     "name_arabic": "الحجر",
     "verses_count": 99,
-    "name": "The Rocky Tract"
+    "pages": [262, 267],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 70,
-    "name_english": "An-Naĥl",
+    "name_english": "An-Nahl",
+    "name_english_complex": "An-Naĥl",
     "name_arabic": "النحل",
     "verses_count": 128,
-    "name": "The Bee"
+    "pages": [267, 281],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 50,
-    "name_english": "Al-'Isrā",
+    "name_english": "Al-Isra",
+    "name_english_complex": "Al-'Isrā",
     "name_arabic": "الإسراء",
     "verses_count": 111,
-    "name": "The Night Journey"
+    "pages": [282, 293],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 69,
     "name_english": "Al-Kahf",
+    "name_english_complex": "Al-Kahf",
     "name_arabic": "الكهف",
     "verses_count": 110,
-    "name": "The Cave"
+    "pages": [293, 304],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 44,
     "name_english": "Maryam",
+    "name_english_complex": "Maryam",
     "name_arabic": "مريم",
     "verses_count": 98,
-    "name": "Mary"
+    "pages": [305, 312],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 45,
-    "name_english": "Ţāhā",
+    "name_english": "Taha",
+    "name_english_complex": "Ţāhā",
     "name_arabic": "طه",
     "verses_count": 135,
-    "name": "Ta-Ha"
+    "pages": [312, 321],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 73,
-    "name_english": "Al-'Anbyā",
+    "name_english": "Al-Anbya",
+    "name_english_complex": "Al-'Anbyā",
     "name_arabic": "الأنبياء",
     "verses_count": 112,
-    "name": "The Prophets"
+    "pages": [322, 331],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 103,
-    "name_english": "Al-Ĥajj",
+    "name_english": "Al-Hajj",
+    "name_english_complex": "Al-Ĥajj",
     "name_arabic": "الحج",
     "verses_count": 78,
-    "name": "The Pilgrimage"
+    "pages": [332, 341],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 74,
-    "name_english": "Al-Mu'minūn",
+    "name_english": "Al-Mu'minun",
+    "name_english_complex": "Al-Mu'minūn",
     "name_arabic": "المؤمنون",
     "verses_count": 118,
-    "name": "The Believers"
+    "pages": [342, 349],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 102,
-    "name_english": "An-Nūr",
+    "name_english": "An-Nur",
+    "name_english_complex": "An-Nūr",
     "name_arabic": "النور",
     "verses_count": 64,
-    "name": "The Light"
+    "pages": [350, 359],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 42,
-    "name_english": "Al-Furqān",
+    "name_english": "Al-Furqan",
+    "name_english_complex": "Al-Furqān",
     "name_arabic": "الفرقان",
     "verses_count": 77,
-    "name": "The Criterion"
+    "pages": [359, 366],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 47,
-    "name_english": "Ash-Shu`arā",
+    "name_english": "Ash-Shu'ara",
+    "name_english_complex": "Ash-Shu`arā",
     "name_arabic": "الشعراء",
     "verses_count": 227,
-    "name": "The Poets"
+    "pages": [367, 376],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 48,
     "name_english": "An-Naml",
+    "name_english_complex": "An-Naml",
     "name_arabic": "النمل",
     "verses_count": 93,
-    "name": "The Ant"
+    "pages": [377, 385],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 49,
-    "name_english": "Al-Qaşaş",
+    "name_english": "Al-Qasas",
+    "name_english_complex": "Al-Qaşaş",
     "name_arabic": "القصص",
     "verses_count": 88,
-    "name": "The Stories"
+    "pages": [385, 396],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 85,
-    "name_english": "Al-`Ankabūt",
+    "name_english": "Al-'Ankabut",
+    "name_english_complex": "Al-`Ankabūt",
     "name_arabic": "العنكبوت",
     "verses_count": 69,
-    "name": "The Spider"
+    "pages": [396, 404],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 84,
-    "name_english": "Ar-Rūm",
+    "name_english": "Ar-Rum",
+    "name_english_complex": "Ar-Rūm",
     "name_arabic": "الروم",
     "verses_count": 60,
-    "name": "The Romans"
+    "pages": [404, 410],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 57,
-    "name_english": "Luqmān",
+    "name_english": "Luqman",
+    "name_english_complex": "Luqmān",
     "name_arabic": "لقمان",
     "verses_count": 34,
-    "name": "Luqman"
+    "pages": [411, 414],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 75,
     "name_english": "As-Sajdah",
+    "name_english_complex": "As-Sajdah",
     "name_arabic": "السجدة",
     "verses_count": 30,
-    "name": "The Prostration"
+    "pages": [415, 417],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 90,
-    "name_english": "Al-'Aĥzāb",
+    "name_english": "Al-Ahzab",
+    "name_english_complex": "Al-'Aĥzāb",
     "name_arabic": "الأحزاب",
     "verses_count": 73,
-    "name": "The Combined Forces"
+    "pages": [418, 427],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 58,
     "name_english": "Saba",
+    "name_english_complex": "Saba",
     "name_arabic": "سبإ",
     "verses_count": 54,
-    "name": "Sheba"
+    "pages": [428, 434],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 43,
-    "name_english": "Fāţir",
+    "name_english": "Fatir",
+    "name_english_complex": "Fāţir",
     "name_arabic": "فاطر",
     "verses_count": 45,
-    "name": "Originator"
+    "pages": [434, 440],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 41,
-    "name_english": "Yā-Sīn",
+    "name_english": "Ya-Sin",
+    "name_english_complex": "Yā-Sīn",
     "name_arabic": "يس",
     "verses_count": 83,
-    "name": "Ya Sin"
+    "pages": [440, 445],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 56,
-    "name_english": "Aş-Şāffāt",
+    "name_english": "As-Saffat",
+    "name_english_complex": "Aş-Şāffāt",
     "name_arabic": "الصافات",
     "verses_count": 182,
-    "name": "Those who set the Ranks"
+    "pages": [446, 452],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 38,
-    "name_english": "Şād",
+    "name_english": "Sad",
+    "name_english_complex": "Şād",
     "name_arabic": "ص",
     "verses_count": 88,
-    "name": "The Letter \"Saad\""
+    "pages": [453, 458],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 59,
     "name_english": "Az-Zumar",
+    "name_english_complex": "Az-Zumar",
     "name_arabic": "الزمر",
     "verses_count": 75,
-    "name": "The Troops"
+    "pages": [458, 467],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 60,
-    "name_english": "Ghāfir",
+    "name_english": "Ghafir",
+    "name_english_complex": "Ghāfir",
     "name_arabic": "غافر",
     "verses_count": 85,
-    "name": "The Forgiver"
+    "pages": [467, 476],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 61,
-    "name_english": "Fuşşilat",
+    "name_english": "Fussilat",
+    "name_english_complex": "Fuşşilat",
     "name_arabic": "فصلت",
     "verses_count": 54,
-    "name": "Explained in Detail"
+    "pages": [477, 482],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 62,
-    "name_english": "Ash-Shūraá",
+    "name_english": "Ash-Shuraa",
+    "name_english_complex": "Ash-Shūraá",
     "name_arabic": "الشورى",
     "verses_count": 53,
-    "name": "The Consultation"
+    "pages": [483, 489],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 63,
     "name_english": "Az-Zukhruf",
+    "name_english_complex": "Az-Zukhruf",
     "name_arabic": "الزخرف",
     "verses_count": 89,
-    "name": "The Ornaments of Gold"
+    "pages": [489, 495],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 64,
-    "name_english": "Ad-Dukhān",
+    "name_english": "Ad-Dukhan",
+    "name_english_complex": "Ad-Dukhān",
     "name_arabic": "الدخان",
     "verses_count": 59,
-    "name": "The Smoke"
+    "pages": [496, 498],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 65,
-    "name_english": "Al-Jāthiyah",
+    "name_english": "Al-Jathiyah",
+    "name_english_complex": "Al-Jāthiyah",
     "name_arabic": "الجاثية",
     "verses_count": 37,
-    "name": "The Crouching"
+    "pages": [499, 502],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 66,
-    "name_english": "Al-'Aĥqāf",
+    "name_english": "Al-Ahqaf",
+    "name_english_complex": "Al-'Aĥqāf",
     "name_arabic": "الأحقاف",
     "verses_count": 35,
-    "name": "The Wind-Curved Sandhills"
+    "pages": [502, 506],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 95,
-    "name_english": "Muĥammad",
+    "name_english": "Muhammad",
+    "name_english_complex": "Muĥammad",
     "name_arabic": "محمد",
     "verses_count": 38,
-    "name": "Muhammad"
+    "pages": [507, 510],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 111,
-    "name_english": "Al-Fatĥ",
+    "name_english": "Al-Fath",
+    "name_english_complex": "Al-Fatĥ",
     "name_arabic": "الفتح",
     "verses_count": 29,
-    "name": "The Victory"
+    "pages": [511, 515],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 106,
-    "name_english": "Al-Ĥujurāt",
+    "name_english": "Al-Hujurat",
+    "name_english_complex": "Al-Ĥujurāt",
     "name_arabic": "الحجرات",
     "verses_count": 18,
-    "name": "The Rooms"
+    "pages": [515, 517],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 34,
-    "name_english": "Qāf",
+    "name_english": "Qaf",
+    "name_english_complex": "Qāf",
     "name_arabic": "ق",
     "verses_count": 45,
-    "name": "The Letter \"Qaf\""
+    "pages": [518, 520],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 67,
-    "name_english": "Adh-Dhāriyāt",
+    "name_english": "Adh-Dhariyat",
+    "name_english_complex": "Adh-Dhāriyāt",
     "name_arabic": "الذاريات",
     "verses_count": 60,
-    "name": "The Winnowing Winds"
+    "pages": [520, 523],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 76,
-    "name_english": "Aţ-Ţūr",
+    "name_english": "At-Tur",
+    "name_english_complex": "Aţ-Ţūr",
     "name_arabic": "الطور",
     "verses_count": 49,
-    "name": "The Mount"
+    "pages": [523, 525],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 23,
     "name_english": "An-Najm",
+    "name_english_complex": "An-Najm",
     "name_arabic": "النجم",
     "verses_count": 62,
-    "name": "The Star"
+    "pages": [526, 528],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 37,
     "name_english": "Al-Qamar",
+    "name_english_complex": "Al-Qamar",
     "name_arabic": "القمر",
     "verses_count": 55,
-    "name": "The Moon"
+    "pages": [528, 531],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 97,
-    "name_english": "Ar-Raĥmān",
+    "name_english": "Ar-Rahman",
+    "name_english_complex": "Ar-Raĥmān",
     "name_arabic": "الرحمن",
     "verses_count": 78,
-    "name": "The Beneficent"
+    "pages": [531, 534],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 46,
-    "name_english": "Al-Wāqi`ah",
+    "name_english": "Al-Waqi'ah",
+    "name_english_complex": "Al-Wāqi`ah",
     "name_arabic": "الواقعة",
     "verses_count": 96,
-    "name": "The Inevitable"
+    "pages": [534, 537],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 94,
-    "name_english": "Al-Ĥadīd",
+    "name_english": "Al-Hadid",
+    "name_english_complex": "Al-Ĥadīd",
     "name_arabic": "الحديد",
     "verses_count": 29,
-    "name": "The Iron"
+    "pages": [537, 541],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 105,
-    "name_english": "Al-Mujādila",
+    "name_english": "Al-Mujadila",
+    "name_english_complex": "Al-Mujādila",
     "name_arabic": "المجادلة",
     "verses_count": 22,
-    "name": "The Pleading Woman"
+    "pages": [542, 545],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 101,
-    "name_english": "Al-Ĥashr",
+    "name_english": "Al-Hashr",
+    "name_english_complex": "Al-Ĥashr",
     "name_arabic": "الحشر",
     "verses_count": 24,
-    "name": "The Exile"
+    "pages": [545, 548],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 91,
-    "name_english": "Al-Mumtaĥanah",
+    "name_english": "Al-Mumtahanah",
+    "name_english_complex": "Al-Mumtaĥanah",
     "name_arabic": "الممتحنة",
     "verses_count": 13,
-    "name": "She that is to be examined"
+    "pages": [549, 551],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 109,
-    "name_english": "Aş-Şaf",
+    "name_english": "As-Saf",
+    "name_english_complex": "Aş-Şaf",
     "name_arabic": "الصف",
     "verses_count": 14,
-    "name": "The Ranks"
+    "pages": [551, 552],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 110,
-    "name_english": "Al-Jumu`ah",
+    "name_english": "Al-Jumu'ah",
+    "name_english_complex": "Al-Jumu`ah",
     "name_arabic": "الجمعة",
     "verses_count": 11,
-    "name": "The Congregation, Friday"
+    "pages": [553, 554],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 104,
-    "name_english": "Al-Munāfiqūn",
+    "name_english": "Al-Munafiqun",
+    "name_english_complex": "Al-Munāfiqūn",
     "name_arabic": "المنافقون",
     "verses_count": 11,
-    "name": "The Hypocrites"
+    "pages": [554, 555],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 108,
-    "name_english": "At-Taghābun",
+    "name_english": "At-Taghabun",
+    "name_english_complex": "At-Taghābun",
     "name_arabic": "التغابن",
     "verses_count": 18,
-    "name": "The Mutual Disillusion"
+    "pages": [556, 557],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 99,
-    "name_english": "Aţ-Ţalāq",
+    "name_english": "At-Talaq",
+    "name_english_complex": "Aţ-Ţalāq",
     "name_arabic": "الطلاق",
     "verses_count": 12,
-    "name": "The Divorce"
+    "pages": [558, 559],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 107,
-    "name_english": "At-Taĥrīm",
+    "name_english": "At-Tahrim",
+    "name_english_complex": "At-Taĥrīm",
     "name_arabic": "التحريم",
     "verses_count": 12,
-    "name": "The Prohibition"
+    "pages": [560, 561],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 77,
     "name_english": "Al-Mulk",
+    "name_english_complex": "Al-Mulk",
     "name_arabic": "الملك",
     "verses_count": 30,
-    "name": "The Sovereignty"
+    "pages": [562, 564],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 2,
     "name_english": "Al-Qalam",
+    "name_english_complex": "Al-Qalam",
     "name_arabic": "القلم",
     "verses_count": 52,
-    "name": "The Pen"
+    "pages": [564, 566],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 78,
-    "name_english": "Al-Ĥāqqah",
+    "name_english": "Al-Haqqah",
+    "name_english_complex": "Al-Ĥāqqah",
     "name_arabic": "الحاقة",
     "verses_count": 52,
-    "name": "The Reality"
+    "pages": [566, 568],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 79,
-    "name_english": "Al-Ma`ārij",
+    "name_english": "Al-Ma'arij",
+    "name_english_complex": "Al-Ma`ārij",
     "name_arabic": "المعارج",
     "verses_count": 44,
-    "name": "The Ascending Stairways"
+    "pages": [568, 570],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 71,
-    "name_english": "Nūĥ",
+    "name_english": "Nuh",
+    "name_english_complex": "Nūĥ",
     "name_arabic": "نوح",
     "verses_count": 28,
-    "name": "Noah"
+    "pages": [570, 571],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 40,
     "name_english": "Al-Jinn",
+    "name_english_complex": "Al-Jinn",
     "name_arabic": "الجن",
     "verses_count": 28,
-    "name": "The Jinn"
+    "pages": [572, 573],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 3,
     "name_english": "Al-Muzzammil",
+    "name_english_complex": "Al-Muzzammil",
     "name_arabic": "المزمل",
     "verses_count": 20,
-    "name": "The Enshrouded One"
+    "pages": [574, 575],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 4,
     "name_english": "Al-Muddaththir",
+    "name_english_complex": "Al-Muddaththir",
     "name_arabic": "المدثر",
     "verses_count": 56,
-    "name": "The Cloaked One"
+    "pages": [575, 577],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 31,
-    "name_english": "Al-Qiyāmah",
+    "name_english": "Al-Qiyamah",
+    "name_english_complex": "Al-Qiyāmah",
     "name_arabic": "القيامة",
     "verses_count": 40,
-    "name": "The Resurrection"
+    "pages": [577, 578],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 98,
-    "name_english": "Al-'Insān",
+    "name_english": "Al-Insan",
+    "name_english_complex": "Al-'Insān",
     "name_arabic": "الانسان",
     "verses_count": 31,
-    "name": "The Man"
+    "pages": [578, 580],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 33,
-    "name_english": "Al-Mursalāt",
+    "name_english": "Al-Mursalat",
+    "name_english_complex": "Al-Mursalāt",
     "name_arabic": "المرسلات",
     "verses_count": 50,
-    "name": "The Emissaries"
+    "pages": [580, 581],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 80,
     "name_english": "An-Naba",
+    "name_english_complex": "An-Naba",
     "name_arabic": "النبإ",
     "verses_count": 40,
-    "name": "The Tidings"
+    "pages": [582, 583],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 81,
-    "name_english": "An-Nāzi`āt",
+    "name_english": "An-Nazi'at",
+    "name_english_complex": "An-Nāzi`āt",
     "name_arabic": "النازعات",
     "verses_count": 46,
-    "name": "Those who drag forth"
+    "pages": [583, 584],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 24,
-    "name_english": "`Abasa",
+    "name_english": "'Abasa",
+    "name_english_complex": "`Abasa",
     "name_arabic": "عبس",
     "verses_count": 42,
-    "name": "He Frowned"
+    "pages": [585, 585],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 7,
-    "name_english": "At-Takwīr",
+    "name_english": "At-Takwir",
+    "name_english_complex": "At-Takwīr",
     "name_arabic": "التكوير",
     "verses_count": 29,
-    "name": "The Overthrowing"
+    "pages": [586, 586],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 82,
-    "name_english": "Al-'Infiţār",
+    "name_english": "Al-Infitar",
+    "name_english_complex": "Al-'Infiţār",
     "name_arabic": "الإنفطار",
     "verses_count": 19,
-    "name": "The Cleaving"
+    "pages": [587, 587],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 86,
-    "name_english": "Al-Muţaffifīn",
+    "name_english": "Al-Mutaffifin",
+    "name_english_complex": "Al-Muţaffifīn",
     "name_arabic": "المطففين",
     "verses_count": 36,
-    "name": "The Defrauding"
+    "pages": [587, 589],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 83,
-    "name_english": "Al-'Inshiqāq",
+    "name_english": "Al-Inshiqaq",
+    "name_english_complex": "Al-'Inshiqāq",
     "name_arabic": "الإنشقاق",
     "verses_count": 25,
-    "name": "The Sundering"
+    "pages": [589, 589],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 27,
-    "name_english": "Al-Burūj",
+    "name_english": "Al-Buruj",
+    "name_english_complex": "Al-Burūj",
     "name_arabic": "البروج",
     "verses_count": 22,
-    "name": "The Mansions of the Stars"
+    "pages": [590, 590],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 36,
-    "name_english": "Aţ-Ţāriq",
+    "name_english": "At-Tariq",
+    "name_english_complex": "Aţ-Ţāriq",
     "name_arabic": "الطارق",
     "verses_count": 17,
-    "name": "The Nightcommer"
+    "pages": [591, 591],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 8,
-    "name_english": "Al-'A`lá",
+    "name_english": "Al-A'la",
+    "name_english_complex": "Al-'A`lá",
     "name_arabic": "الأعلى",
     "verses_count": 19,
-    "name": "The Most High"
+    "pages": [591, 592],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 68,
-    "name_english": "Al-Ghāshiyah",
+    "name_english": "Al-Ghashiyah",
+    "name_english_complex": "Al-Ghāshiyah",
     "name_arabic": "الغاشية",
     "verses_count": 26,
-    "name": "The Overwhelming"
+    "pages": [592, 592],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 10,
     "name_english": "Al-Fajr",
+    "name_english_complex": "Al-Fajr",
     "name_arabic": "الفجر",
     "verses_count": 30,
-    "name": "The Dawn"
+    "pages": [593, 594],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 35,
     "name_english": "Al-Balad",
+    "name_english_complex": "Al-Balad",
     "name_arabic": "البلد",
     "verses_count": 20,
-    "name": "The City"
+    "pages": [594, 594],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 26,
     "name_english": "Ash-Shams",
+    "name_english_complex": "Ash-Shams",
     "name_arabic": "الشمس",
     "verses_count": 15,
-    "name": "The Sun"
+    "pages": [595, 595],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 9,
     "name_english": "Al-Layl",
+    "name_english_complex": "Al-Layl",
     "name_arabic": "الليل",
     "verses_count": 21,
-    "name": "The Night"
+    "pages": [595, 596],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 11,
-    "name_english": "Ađ-Đuĥaá",
+    "name_english": "Ad-Duhaa",
+    "name_english_complex": "Ađ-Đuĥaá",
     "name_arabic": "الضحى",
     "verses_count": 11,
-    "name": "The Morning Hours"
+    "pages": [596, 596],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 12,
-    "name_english": "Ash-Sharĥ",
+    "name_english": "Ash-Sharh",
+    "name_english_complex": "Ash-Sharĥ",
     "name_arabic": "الشرح",
     "verses_count": 8,
-    "name": "The Relief"
+    "pages": [596, 596],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 28,
-    "name_english": "At-Tīn",
+    "name_english": "At-Tin",
+    "name_english_complex": "At-Tīn",
     "name_arabic": "التين",
     "verses_count": 8,
-    "name": "The Fig"
+    "pages": [597, 597],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 1,
-    "name_english": "Al-`Alaq",
+    "name_english": "Al-'Alaq",
+    "name_english_complex": "Al-`Alaq",
     "name_arabic": "العلق",
     "verses_count": 19,
-    "name": "The Clot"
+    "pages": [597, 597],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 25,
     "name_english": "Al-Qadr",
+    "name_english_complex": "Al-Qadr",
     "name_arabic": "القدر",
     "verses_count": 5,
-    "name": "The Power"
+    "pages": [598, 598],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 100,
     "name_english": "Al-Bayyinah",
+    "name_english_complex": "Al-Bayyinah",
     "name_arabic": "البينة",
     "verses_count": 8,
-    "name": "The Clear Proof"
+    "pages": [598, 599],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 93,
     "name_english": "Az-Zalzalah",
+    "name_english_complex": "Az-Zalzalah",
     "name_arabic": "الزلزلة",
     "verses_count": 8,
-    "name": "The Earthquake"
+    "pages": [599, 599],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 14,
-    "name_english": "Al-`Ādiyāt",
+    "name_english": "Al-'Adiyat",
+    "name_english_complex": "Al-`Ādiyāt",
     "name_arabic": "العاديات",
     "verses_count": 11,
-    "name": "The Courser"
+    "pages": [599, 600],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 30,
-    "name_english": "Al-Qāri`ah",
+    "name_english": "Al-Qari'ah",
+    "name_english_complex": "Al-Qāri`ah",
     "name_arabic": "القارعة",
     "verses_count": 11,
-    "name": "The Calamity"
+    "pages": [600, 600],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 16,
-    "name_english": "At-Takāthur",
+    "name_english": "At-Takathur",
+    "name_english_complex": "At-Takāthur",
     "name_arabic": "التكاثر",
     "verses_count": 8,
-    "name": "The Rivalry in world increase"
+    "pages": [600, 600],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 13,
-    "name_english": "Al-`Aşr",
+    "name_english": "Al-'Asr",
+    "name_english_complex": "Al-`Aşr",
     "name_arabic": "العصر",
     "verses_count": 3,
-    "name": "The Declining Day"
+    "pages": [601, 601],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 32,
     "name_english": "Al-Humazah",
+    "name_english_complex": "Al-Humazah",
     "name_arabic": "الهمزة",
     "verses_count": 9,
-    "name": "The Traducer"
+    "pages": [601, 601],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 19,
-    "name_english": "Al-Fīl",
+    "name_english": "Al-Fil",
+    "name_english_complex": "Al-Fīl",
     "name_arabic": "الفيل",
     "verses_count": 5,
-    "name": "The Elephant"
+    "pages": [601, 601],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 29,
     "name_english": "Quraysh",
+    "name_english_complex": "Quraysh",
     "name_arabic": "قريش",
     "verses_count": 4,
-    "name": "Quraysh"
+    "pages": [602, 602],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 17,
-    "name_english": "Al-Mā`ūn",
+    "name_english": "Al-Ma'un",
+    "name_english_complex": "Al-Mā`ūn",
     "name_arabic": "الماعون",
     "verses_count": 7,
-    "name": "The Small kindnesses"
+    "pages": [602, 602],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 15,
     "name_english": "Al-Kawthar",
+    "name_english_complex": "Al-Kawthar",
     "name_arabic": "الكوثر",
     "verses_count": 3,
-    "name": "The Abundance"
+    "pages": [602, 602],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 18,
-    "name_english": "Al-Kāfirūn",
+    "name_english": "Al-Kafirun",
+    "name_english_complex": "Al-Kāfirūn",
     "name_arabic": "الكافرون",
     "verses_count": 6,
-    "name": "The Disbelievers"
+    "pages": [603, 603],
   },
   {
     "revelation_place": "madinah",
     "revelation_order": 114,
-    "name_english": "An-Naşr",
+    "name_english": "An-Nasr",
+    "name_english_complex": "An-Naşr",
     "name_arabic": "النصر",
     "verses_count": 3,
-    "name": "The Divine Support"
+    "pages": [603, 603],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 6,
     "name_english": "Al-Masad",
+    "name_english_complex": "Al-Masad",
     "name_arabic": "المسد",
     "verses_count": 5,
-    "name": "The Palm Fiber"
+    "pages": [603, 603],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 22,
-    "name_english": "Al-'Ikhlāş",
+    "name_english": "Al-Ikhlas",
+    "name_english_complex": "Al-'Ikhlāş",
     "name_arabic": "الإخلاص",
     "verses_count": 4,
-    "name": "The Sincerity"
+    "pages": [604, 604],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 20,
     "name_english": "Al-Falaq",
+    "name_english_complex": "Al-Falaq",
     "name_arabic": "الفلق",
     "verses_count": 5,
-    "name": "The Daybreak"
+    "pages": [604, 604],
   },
   {
     "revelation_place": "makkah",
     "revelation_order": 21,
-    "name_english": "An-Nās",
+    "name_english": "An-Nas",
+    "name_english_complex": "An-Nās",
     "name_arabic": "الناس",
     "verses_count": 6,
-    "name": "Mankind"
+    "pages": [604, 604],
   }
 ];
 
@@ -918,8 +1032,10 @@ class SurahMeta {
   int revelation_order = 0;
   int verses_count = 0;
   String name_english = "";
+  String name_english_complex = "";
   String name_arabic = "";
-  String name = "";
+  int startPage = 0;
+  int endPage = 0;
 
   SurahMeta(
     String revelation_place,
@@ -927,14 +1043,18 @@ class SurahMeta {
     int verses_count,
     String name_english,
     String name_arabic,
-    String name,
+    String name_english_complex,
+    int startPage,
+    int endPage,    
   ) {
     this.revelation_place = revelation_place;
     this.revelation_order = revelation_order;
     this.verses_count = verses_count;
     this.name_english = name_english;
     this.name_arabic = name_arabic;
-    this.name = name;
+    this.name_english_complex = name_english_complex;
+    this.startPage = startPage;
+    this.endPage = endPage;
   }
 }
 
@@ -948,14 +1068,18 @@ class SurahInfo {
         _DATA[i]["verses_count"] as int,
         _DATA[i]["name_english"] as String,
         _DATA[i]["name_arabic"] as String,
-        _DATA[i]["name"] as String,
+        _DATA[i]["name_english_complex"] as String,
+        (_DATA[i]["pages"] as List<int>)[0],
+        (_DATA[i]["pages"] as List<int>)[1],
+        
+
       );
     }
   }
 
   static SurahMeta getSurah(int surahNum) {
-    if(surahNum <= 0 || surahNum > 113) return data[0]!;
-    
+    if (surahNum <= 0 || surahNum > 113) return data[0]!;
+
     // add one
     return data[surahNum - 1]!;
   }
