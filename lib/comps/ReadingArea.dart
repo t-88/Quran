@@ -2,8 +2,8 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quran/blocs/PageInfo/page_info_bloc.dart';
-import 'package:quran/blocs/PageInfo/page_info_event.dart';
+import 'package:quran/blocs/PageInfo/global_bloc.dart';
+import 'package:quran/blocs/PageInfo/global_event.dart';
 import 'package:quran/comps/QuranPage.dart';
 
 class ReadingArea extends StatefulWidget {
@@ -50,7 +50,7 @@ class _ReadingAreaState extends State<ReadingArea> {
             if (state.indexPageJump != -1 && _scrollController.hasClients) {
               await _scrollController.animateTo(
                 state.indexPageJump * MediaQuery.of(context).size.width,
-                duration: Duration(milliseconds: 500),
+                duration: Duration(milliseconds: 1000),
                 curve: Curves.linear,
               );
               context.read<GlobalBloc>().add(ResetJump());

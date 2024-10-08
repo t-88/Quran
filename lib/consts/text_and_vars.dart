@@ -9,4 +9,7 @@ class Consts {
   static const AL_SUWAR_ARABIC_TEXT = "السور";
   static const AL_AHZAB_ARABIC_TEXT = "الاحزاب";
 
+  static const SEARCH_FOR_AYA_ARABIC_TEXT = "ادخل النص للبحث ";
+  static  const NO_FOUND_ARABIC_TEXT = "ما تبحث عنه غير موجود, ربما خطأ في الكتابة و الله اعلم";
+  static  const SEARCH_FOR_AYAT = "ابحث عن ايات في القران الكريم";
 }

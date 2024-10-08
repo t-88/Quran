@@ -1,33 +1,43 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:quran/blocs/PageInfo/page_info_bloc.dart';
+import 'package:quran/blocs/PageInfo/global_bloc.dart';
+import 'package:quran/blocs/PageInfo/global_event.dart';
 import 'package:quran/comps/BackgroundBluredContainer.dart';
 import 'package:quran/consts/page_info.dart';
 import 'package:quran/consts/routes.dart';
+import 'package:quran/consts/shared_prefs.dart';
 import 'package:quran/consts/surah_info.dart';
 import 'package:quran/consts/text_and_vars.dart';
 
 const Duration _opacityDuration = Duration(milliseconds: 200);
 late Color _backgroundColor;
 
-enum _Options { more, bookmark, search, iindex }
+enum _Options { more, bookmark, search, iindex , jump }
 
-void selectOption(BuildContext context, _Options option) {
+void selectOption(BuildContext context, _Options option) async {
   switch (option) {
     case _Options.iindex:
       Navigator.pushNamed(context, Routes.Index);
       break;
     case _Options.search:
+      Navigator.pushNamed(context, Routes.Search);
       break;
     case _Options.bookmark:
+      context.read<GlobalBloc>().add(BookmarkPage());
+
       break;
+      
     case _Options.more:
+      break;
+
+      case _Options.jump:
+        context.read<GlobalBloc>().add(JumpToPage(SharedPrefs.prefs.getInt(SharedPrefs.SavedPage)!));
       break;
   }
 }
 
 List<Widget> InfoOverlay(BuildContext context) {
-  _backgroundColor = Colors.grey.withOpacity(0.1);
+  _backgroundColor = Colors.black.withOpacity(0.8);
 
   return [
     _cur_page_info(),
@@ -64,6 +74,7 @@ Widget _cur_page_info() {
                           child: Text.rich(
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.white,
                               fontSize: 16,
                             ),
                             TextSpan(
@@ -86,6 +97,7 @@ Widget _cur_page_info() {
                             (state.pageIdx - 1).toString(),
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.white,
                               fontSize: 16,
                             ),
                           ),
@@ -99,6 +111,7 @@ Widget _cur_page_info() {
                                 ).name_arabic,
                             style: TextStyle(
                               fontWeight: FontWeight.bold,
+                              color: Colors.white,
                               fontSize: 16,
                             ),
                           ),
@@ -120,20 +133,25 @@ Widget _bottom_options() {
   List<Map<String, Object>> data = [
     {
       "option": _Options.more,
-      "icon": Icon(Icons.more_vert, color: Colors.black),
+      "icon": Icon(Icons.more_vert, color: Colors.white),
     },
     {
       "option": _Options.bookmark,
-      "icon": Icon(Icons.bookmark_outline, color: Colors.black),
+      "icon": Icon(Icons.bookmark_outline, color: Colors.white),
+      "filled": Icon(Icons.bookmark, color: Colors.white),
+    },
+    {
+      "option": _Options.jump,
+      "icon": Icon(Icons.bookmark_added, color: Colors.white),
     },
     {
       "option": _Options.search,
-      "icon": Icon(Icons.search, color: Colors.black),
+      "icon": Icon(Icons.search, color: Colors.white),
     },
     {
       "option": _Options.iindex,
-      "icon": Icon(Icons.toc_outlined, color: Colors.black),
-    },    
+      "icon": Icon(Icons.toc_outlined, color: Colors.white),
+    },
   ];
 
   return Positioned(
@@ -169,19 +187,44 @@ Widget _bottom_options() {
                     Expanded(
                       child: InkWell(
                         splashColor: Colors.white,
-                        onTap: () => selectOption(
-                            context, data[1]["option"] as _Options),
+                        onTap: state.pageIdx !=
+                                    (SharedPrefs.prefs
+                                            .getInt(SharedPrefs.SavedPage) ??
+                                        -1) &&
+                                SharedPrefs.prefs
+                                        .getInt(SharedPrefs.SavedPage) !=
+                                    null
+                            ? () => selectOption(context,_Options.jump)
+                            : null,
                         child: Container(
-                            height: 100, child: data[1]["icon"] as Icon),
+                          height: 100,
+                          child: Icon(Icons.bookmark_added,
+                              color: state.pageIdx !=
+                                          (SharedPrefs.prefs.getInt(
+                                                  SharedPrefs.SavedPage) ??
+                                              -1) &&
+                                      SharedPrefs.prefs
+                                              .getInt(SharedPrefs.SavedPage) !=
+                                          null
+                                  ? Colors.white
+                                  : Colors.grey),
+                        ),
                       ),
                     ),
                     Expanded(
                       child: InkWell(
                         splashColor: Colors.white,
                         onTap: () => selectOption(
-                            context, data[2]["option"] as _Options),
+                            context, data[1]["option"] as _Options),
                         child: Container(
-                            height: 100, child: data[2]["icon"] as Icon),
+                          height: 100,
+                          child: state.pageIdx ==
+                                  (SharedPrefs.prefs
+                                          .getInt(SharedPrefs.SavedPage) ??
+                                      -1)
+                              ? data[1]["filled"] as Icon
+                              : data[1]["icon"] as Icon,
+                        ),
                       ),
                     ),
                     Expanded(
@@ -193,6 +236,18 @@ Widget _bottom_options() {
                           padding: EdgeInsets.only(right: 20),
                           height: 100,
                           child: data[3]["icon"] as Icon,
+                        ),
+                      ),
+                    ),
+                    Expanded(
+                      child: InkWell(
+                        splashColor: Colors.white,
+                        onTap: () => selectOption(
+                            context, data[4]["option"] as _Options),
+                        child: Container(
+                          padding: EdgeInsets.only(right: 20),
+                          height: 100,
+                          child: data[4]["icon"] as Icon,
                         ),
                       ),
                     ),

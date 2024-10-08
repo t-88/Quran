@@ -37,3 +37,15 @@ class ResetJump extends GlobalEvent {
 
 class ToggleOverlay extends GlobalEvent {}
 
+class SearchForAya extends GlobalEvent {
+  String text;
+  SearchForAya(this.text);
+      @override
+  List<Object> get props => [text];
+}
+
+
+
+class BookmarkPage extends GlobalEvent {
+
+}
