@@ -43,9 +43,12 @@ class GlobalBloc extends Bloc<GlobalEvent, GlobalState> {
     if (event.text == "") {
       emit(state.copyWith(searchedAyat: [], lastedSearched: ""));
     } else {
-      emit(state.copyWith(
+      emit(
+        state.copyWith(
           searchedAyat: AyatTextInfo.searchInAyat(event.text),
-          lastedSearched: event.text));
+          lastedSearched: event.text,
+        ),
+      );
     }
   }
 
@@ -58,6 +61,6 @@ class GlobalBloc extends Bloc<GlobalEvent, GlobalState> {
       await SharedPrefs.prefs.setInt(SharedPrefs.SavedPage, pageIdx);
     }
 
-    emit(state.copyWith(toggleUpdate : !state.toggleUpdate));
+    emit(state.copyWith(toggleUpdate: !state.toggleUpdate));
   }
 }

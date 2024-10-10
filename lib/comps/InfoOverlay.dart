@@ -12,7 +12,7 @@ import 'package:quran/consts/text_and_vars.dart';
 const Duration _opacityDuration = Duration(milliseconds: 200);
 late Color _backgroundColor;
 
-enum _Options { more, bookmark, search, iindex , jump }
+enum _Options { more, bookmark, search, iindex, jump }
 
 void selectOption(BuildContext context, _Options option) async {
   switch (option) {
@@ -26,12 +26,14 @@ void selectOption(BuildContext context, _Options option) async {
       context.read<GlobalBloc>().add(BookmarkPage());
 
       break;
-      
+
     case _Options.more:
       break;
 
-      case _Options.jump:
-        context.read<GlobalBloc>().add(JumpToPage(SharedPrefs.prefs.getInt(SharedPrefs.SavedPage)!));
+    case _Options.jump:
+      int index = SharedPrefs.prefs.getInt(SharedPrefs.SavedPage)!;
+      if (index != 0) index -= 1;
+      context.read<GlobalBloc>().add(JumpToPage(index));
       break;
   }
 }
@@ -194,7 +196,7 @@ Widget _bottom_options() {
                                 SharedPrefs.prefs
                                         .getInt(SharedPrefs.SavedPage) !=
                                     null
-                            ? () => selectOption(context,_Options.jump)
+                            ? () => selectOption(context, _Options.jump)
                             : null,
                         child: Container(
                           height: 100,

@@ -26,8 +26,8 @@ class _SearchPageState extends State<SearchPage> {
   @override
   void initState() {
     super.initState();
-    if(context.read<GlobalBloc>().state.lastedSearched.length == 0) {
-          _focusNode.requestFocus();
+    if (context.read<GlobalBloc>().state.lastedSearched.length == 0) {
+      _focusNode.requestFocus();
     }
   }
 
@@ -162,9 +162,9 @@ class SearchedAyaPreview extends StatelessWidget {
   String searchedText;
 
   void onSelectAya(BuildContext context) {
-    context.read<GlobalBloc>().add(JumpToPage(
-        SurahInfo.getSurah(int.parse(searchResualt.aya.key.split(":")[0]))
-            .startPage));
+    context.read<GlobalBloc>().add(
+          JumpToPage(searchResualt.aya.page_number),
+        );
     Navigator.pop(context);
   }
 
