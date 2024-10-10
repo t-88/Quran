@@ -8,6 +8,8 @@ class GlobalState extends Equatable {
   
   int lastestIndexTab = 0;
 
+  int lastReadPage = 0;
+
   String lastedSearched;
   List<SearchResualtMeta> searchedAyat;
 
@@ -20,6 +22,7 @@ class GlobalState extends Equatable {
     this.lastestIndexTab = 0,
     this.searchedAyat = const [],
   this.lastedSearched = "",
+  this.lastReadPage = 0,
   });
 
   GlobalState copyWith({
@@ -30,9 +33,12 @@ class GlobalState extends Equatable {
     List<SearchResualtMeta>? searchedAyat,
     String? lastedSearched,
     bool? toggleUpdate,
+    int ? lastReadPage
 
-  }) =>
-      GlobalState(
+  })  {
+
+
+      var gs =  GlobalState(
         pageIdx: pageIdx ?? this.pageIdx,
         overlayVisible: overlayVisible ?? this.overlayVisible,
         indexPageJump: indexPageJump ?? this.indexPageJump,
@@ -40,10 +46,15 @@ class GlobalState extends Equatable {
         searchedAyat: searchedAyat ?? this.searchedAyat,
         lastedSearched: lastedSearched ?? this.lastedSearched,
         toggleUpdate: toggleUpdate ?? this.toggleUpdate,
-        
+        lastReadPage: lastReadPage ?? this.lastReadPage,
       );
+      gs.lastReadPage = gs.pageIdx;
+      
+      SharedPrefs.prefs.setInt(SharedPrefs.LastPage, gs.lastReadPage);
+      return gs;
+  }
 
   @override
   List<Object> get props =>
-      [pageIdx, overlayVisible, indexPageJump, lastestIndexTab, searchedAyat,toggleUpdate];
+      [pageIdx, overlayVisible, indexPageJump, lastestIndexTab, searchedAyat,toggleUpdate,lastReadPage];
 }

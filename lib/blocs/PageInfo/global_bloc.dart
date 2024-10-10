@@ -9,6 +9,8 @@ part 'global_state.dart';
 
 class GlobalBloc extends Bloc<GlobalEvent, GlobalState> {
   GlobalBloc() : super(GlobalState()) {
+      
+
     on<SetPageIndex>(setPageIndex);
     on<JumpToPage>(jumpToPage);
     on<ResetJump>(resetJump);
@@ -19,6 +21,7 @@ class GlobalBloc extends Bloc<GlobalEvent, GlobalState> {
   }
 
   void setPageIndex(SetPageIndex event, emit) {
+
     emit(state.copyWith(pageIdx: event.index));
   }
 

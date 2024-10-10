@@ -174,18 +174,18 @@ Widget _bottom_options() {
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
-                    Expanded(
-                      child: InkWell(
-                        splashColor: Colors.white,
-                        onTap: () => selectOption(
-                            context, data[0]["option"] as _Options),
-                        child: Container(
-                          padding: EdgeInsets.only(left: 20),
-                          height: 100,
-                          child: data[0]["icon"] as Icon,
-                        ),
-                      ),
-                    ),
+                    // Expanded(
+                    //   child: InkWell(
+                    //     splashColor: Colors.white,
+                    //     onTap: () => selectOption(
+                    //         context, data[0]["option"] as _Options),
+                    //     child: Container(
+                    //       padding: EdgeInsets.only(left: 20),
+                    //       height: 100,
+                    //       child: data[0]["icon"] as Icon,
+                    //     ),
+                    //   ),
+                    // ),
                     Expanded(
                       child: InkWell(
                         splashColor: Colors.white,
