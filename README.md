@@ -9,6 +9,6 @@ Quran App.
 ## Preview
 
 <center>
-    <img src="./preview/page.png" alt="page" width="400">
-    <img src="./preview/search.png" alt="search" width="400">
+    <img src="./preview/page.png" alt="page" width="300">
+    <img src="./preview/search.png" alt="search" width="300">
 </center>
