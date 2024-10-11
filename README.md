@@ -8,7 +8,6 @@ Quran App.
 
 ## Preview
 
-<center>
-    <img src="./preview/page.png" alt="page" width="300">
-    <img src="./preview/search.png" alt="search" width="300">
-</center>
+Read | Search|
+--- | --- |
+<img src="./preview/page.png" alt="page" width="300"> | <img src="./preview/search.png" alt="search" width="300"> |
