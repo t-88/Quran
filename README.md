@@ -1,5 +1,10 @@
 # Quran
-Quran App.
+<center>
+<img src="./icon.jpeg" alt="icon" width="100"> 
+
+The Quran App
+</center>
+
 
 ## Features
 - reading
